@@ -163,7 +163,7 @@ MERGED from [org.tensorflow:tensorflow-lite-api:0.0.0-nightly-SNAPSHOT] C:\Users
 		ADDED from D:\workspace__android\workspace_android_ai1\android\app\src\main\AndroidManifest.xml:9:11-37
 	android:theme
 		ADDED from D:\workspace__android\workspace_android_ai1\android\app\src\main\AndroidManifest.xml:14:11-58
-activity#org.tensorflow.lite.examples.digitclassifier.MainActivityHoll2
+activity#org.tensorflow.lite.examples.digitclassifier.MainActivityGawi2
 ADDED from D:\workspace__android\workspace_android_ai1\android\app\src\main\AndroidManifest.xml:17:5-23:16
 	android:exported
 		ADDED from D:\workspace__android\workspace_android_ai1\android\app\src\main\AndroidManifest.xml:18:15-38
