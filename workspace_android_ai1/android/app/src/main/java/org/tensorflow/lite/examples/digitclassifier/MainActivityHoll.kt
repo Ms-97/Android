@@ -10,60 +10,86 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import com.divyanshu.draw.widget.DrawView
-import com.google.android.gms.tasks.Task
-import kotlinx.android.synthetic.main.activity_main5.*
 
-class MainActivityHol : AppCompatActivity() {
+class MainActivityHoll : AppCompatActivity() {
 
-  private var holJjakClassifier = DigitClassifierHoll(this)
+  private var digitClassifier = DigitClassifierHoll(this)
+  var etMine: EditText? = null
+  var etCom: EditText? = null
+  var etResult: EditText? = null
+
 
   @SuppressLint("ClickableViewAccessibility")
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_main5)
 
-    var et1 = findViewById<EditText>(R.id.etMine)
-    var et2 = findViewById<EditText>(R.id.etCom)
-    var et3 = findViewById<EditText>(R.id.etResult)
-    var btn = findViewById<Button>(R.id.btn)
-    // Setup digit classifier
-    holJjakClassifier
-      .initialize()
-      .addOnFailureListener { e -> Log.e(TAG, "Error to setting up digit classifier.", e) }
+    etMine = findViewById<EditText>(R.id.etMine)
+    etCom = findViewById<EditText>(R.id.etCom)
+    etResult = findViewById<EditText>(R.id.etResult)
+
+    val btn = findViewById<Button>(R.id.btn)
 
     btn.setOnClickListener {
-      var user : String = et1.text.toString()
-      var com = ""
-      if(user != null){
-        holJjakClassifier.holClassifyAsync(user)
-          .addOnSuccessListener { resultText ->
-            Log.d("gyeom", resultText)
-
-            if (resultText == "0") {
-              com = "hol"
-            } else if (resultText == "1") {
-              com = "jjak"
-            }
-
-            etCom.setText(com)
-
-            var result = if(user == com){
-              "COM승리"
-            }else{
-              "COM패배"
-            }
-            etResult.setText(result)
-          }
-      }
+      myclick()
     }
+    digitClassifier
+      .initialize()
+      .addOnFailureListener { e -> Log.e(MainActivityHoll.TAG, "Error to setting up digit classifier.", e) }
   }
 
+
   override fun onDestroy() {
-    holJjakClassifier.close()
+    digitClassifier.close()
     super.onDestroy()
   }
 
+  private fun classifyDrawing(mine:String) {
+    digitClassifier
+      .classifyAsyncHoll(mine)
+      .addOnSuccessListener {
+          resultText ->
+
+        Log.d("taekwon95_resultText",resultText)
+        var result:String = ""
+        var com : String = ""
+        if(resultText == "0"){
+          com = "홀"
+        }else{
+          com = "짝"
+        }
+
+        if(com == mine){
+          result = "이김"
+        }else{
+          result = "짐"
+        }
+
+        Log.d("taekwon95_mine",mine)
+        Log.d("taekwon95_com",com)
+        Log.d("taekwon95_result",result)
+
+        etCom?.setText(com)
+        etResult?.setText(result)
+
+
+      }
+      .addOnFailureListener { e ->
+        Log.e(MainActivityHoll.TAG, "Error classifying drawing.", e)
+      }
+  }
+
+
+
+  fun myclick(){
+    var mine:String = etMine?.text.toString()
+
+    classifyDrawing(mine)
+
+
+  }
+
   companion object {
-    private const val TAG = "MainActivity"
+    private const val TAG = "MainActivityHoll"
   }
 }

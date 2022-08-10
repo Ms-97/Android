@@ -58,12 +58,18 @@ class DigitClassifierHoll(private val context: Context) {
 
 
     for(i in inputShape){
-      Log.d("gyeom","${i}")
+      Log.d("taekwon95_inputShape","${i}")
     }
 
     inputImageWidth = inputShape[1]
     inputImageHeight = inputShape[2]
     modelInputSize = FLOAT_TYPE_SIZE * inputImageWidth * inputImageHeight * PIXEL_SIZE
+
+    Log.d("taekwon95",FLOAT_TYPE_SIZE.toString())
+    Log.d("taekwon95",inputImageWidth.toString())
+    Log.d("taekwon95",inputImageHeight.toString())
+    Log.d("taekwon95",PIXEL_SIZE.toString())
+
     // Finish interpreter initialization
     this.interpreter = interpreter
     isInitialized = true
@@ -72,6 +78,7 @@ class DigitClassifierHoll(private val context: Context) {
 
   @Throws(IOException::class)
   private fun loadModelFile(assetManager: AssetManager): ByteBuffer {
+    Log.d("taekwon95",MODEL_FILE)
     val fileDescriptor = assetManager.openFd(MODEL_FILE)
     val inputStream = FileInputStream(fileDescriptor.fileDescriptor)
     val fileChannel = inputStream.channel
@@ -80,7 +87,7 @@ class DigitClassifierHoll(private val context: Context) {
     return fileChannel.map(FileChannel.MapMode.READ_ONLY, startOffset, declaredLength)
   }
 
-  private fun classify(user: String): String {
+  private fun classifyHoll(mine:String): String {
     if (!isInitialized) {
       throw IllegalStateException("TF Lite Interpreter is not initialized yet.")
     }
@@ -90,11 +97,14 @@ class DigitClassifierHoll(private val context: Context) {
 
     // Preprocessing: resize the input
     startTime = System.nanoTime()
-    var byteBuffer = getInputHol()
-    if(user == "hol"){
-      byteBuffer = getInputHol()
-    }else if(user == "jjak"){
-      byteBuffer = getInputJJak()
+
+    var byteBuffer:ByteBuffer? = null
+
+    if(mine=="홀"){
+      byteBuffer = getInputHoll()
+    }
+    if(mine=="짝"){
+      byteBuffer = getInputJjak()
     }
 
     elapsedTime = (System.nanoTime() - startTime) / 1000000
@@ -106,13 +116,59 @@ class DigitClassifierHoll(private val context: Context) {
     elapsedTime = (System.nanoTime() - startTime) / 1000000
     Log.d(TAG, "Inference time = " + elapsedTime + "ms")
 
-    return getHolJjak(result[0])
+    Log.d("taekwon95",result[0].toString())
+    Log.d("taekwon95",getOutputString(result[0]))
+
+    return getOutputString(result[0])
   }
 
-  fun holClassifyAsync(user: String): Task<String> {
+
+
+
+  private fun classify(bitmap: Bitmap): String {
+    if (!isInitialized) {
+      throw IllegalStateException("TF Lite Interpreter is not initialized yet.")
+    }
+
+    var startTime: Long
+    var elapsedTime: Long
+
+    // Preprocessing: resize the input
+    startTime = System.nanoTime()
+    val resizedImage = Bitmap.createScaledBitmap(bitmap, inputImageWidth, inputImageHeight, true)
+
+    val byteBuffer = convertBitmapToByteBuffer(resizedImage)
+    //0
+    //1
+
+    elapsedTime = (System.nanoTime() - startTime) / 1000000
+    Log.d(TAG, "Preprocessing time = " + elapsedTime + "ms")
+
+    startTime = System.nanoTime()
+    val result = Array(1) { FloatArray(OUTPUT_CLASSES_COUNT) }
+    interpreter?.run(byteBuffer, result)
+    elapsedTime = (System.nanoTime() - startTime) / 1000000
+    Log.d(TAG, "Inference time = " + elapsedTime + "ms")
+
+    Log.d("taekwon95",result[0].toString())
+    Log.d("taekwon95",getOutputString(result[0]))
+
+    return getOutputString(result[0])
+  }
+
+  fun classifyAsyncHoll(mine:String): Task<String> {
     val task = TaskCompletionSource<String>()
     executorService.execute {
-      val result = classify(user)
+      val result = classifyHoll(mine)
+      task.setResult(result)
+    }
+    return task.task
+  }
+
+  fun classifyAsync(bitmap: Bitmap): Task<String> {
+    val task = TaskCompletionSource<String>()
+    executorService.execute {
+      val result = classify(bitmap)
       task.setResult(result)
     }
     return task.task
@@ -125,35 +181,53 @@ class DigitClassifierHoll(private val context: Context) {
     }
   }
 
-  private fun getInputHol(): ByteBuffer {
+
+  private fun getInputHoll(): ByteBuffer {
     val byteBuffer = ByteBuffer.allocateDirect(modelInputSize)
     byteBuffer.order(ByteOrder.nativeOrder())
-
     val pixels = IntArray(inputImageWidth * inputImageHeight)
-
     for (pixelValue in pixels) {
-      val hol = 0f
-      byteBuffer.putFloat(hol)
+      byteBuffer.putFloat(0f)
+    }
+    return byteBuffer
+  }
+  private fun getInputJjak(): ByteBuffer {
+    val byteBuffer = ByteBuffer.allocateDirect(modelInputSize)
+    byteBuffer.order(ByteOrder.nativeOrder())
+    val pixels = IntArray(inputImageWidth * inputImageHeight)
+    for (pixelValue in pixels) {
+      byteBuffer.putFloat(1f)
     }
     return byteBuffer
   }
 
-  private fun getInputJJak(): ByteBuffer {
+  private fun convertBitmapToByteBuffer(bitmap: Bitmap): ByteBuffer {
     val byteBuffer = ByteBuffer.allocateDirect(modelInputSize)
     byteBuffer.order(ByteOrder.nativeOrder())
 
     val pixels = IntArray(inputImageWidth * inputImageHeight)
+    bitmap.getPixels(pixels, 0, bitmap.width, 0, 0, bitmap.width, bitmap.height)
 
     for (pixelValue in pixels) {
-      val jjak = 1f
-      byteBuffer.putFloat(jjak)
+      val r = (pixelValue shr 16 and 0xFF)
+      val g = (pixelValue shr 8 and 0xFF)
+      val b = (pixelValue and 0xFF)
+
+      // Convert RGB to grayscale and normalize pixel value to [0..1]
+//      val normalizedPixelValue = (r + g + b) / 3.0f / 255.0f
+      val normalizedPixelValue = 0f
+      Log.d("taekwon95",normalizedPixelValue.toString())
+      byteBuffer.putFloat(normalizedPixelValue)
     }
+
+    Log.d("taekwon95_bb",byteBuffer.toString())
+
     return byteBuffer
   }
 
-  private fun getHolJjak(output: FloatArray): String {
+  private fun getOutputString(output: FloatArray): String {
     val maxIndex = output.indices.maxByOrNull { output[it] } ?: -1
-    return "%d".format(maxIndex)
+    return maxIndex.toString()
   }
 
   companion object {
