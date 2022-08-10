@@ -31,8 +31,8 @@
 20-->D:\workspace__android\workspace_android_ai1\android\app\src\main\AndroidManifest.xml:14:11-58
 21        <activity
 21-->D:\workspace__android\workspace_android_ai1\android\app\src\main\AndroidManifest.xml:17:5-23:16
-22            android:name="org.tensorflow.lite.examples.digitclassifier.MainActivityHoll"
-22-->D:\workspace__android\workspace_android_ai1\android\app\src\main\AndroidManifest.xml:17:15-47
+22            android:name="org.tensorflow.lite.examples.digitclassifier.MainActivityHoll2"
+22-->D:\workspace__android\workspace_android_ai1\android\app\src\main\AndroidManifest.xml:17:15-48
 23            android:exported="true" >
 23-->D:\workspace__android\workspace_android_ai1\android\app\src\main\AndroidManifest.xml:18:15-38
 24            <intent-filter>

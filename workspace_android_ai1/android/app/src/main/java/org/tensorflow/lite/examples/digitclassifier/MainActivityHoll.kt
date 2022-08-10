@@ -50,27 +50,27 @@ class MainActivityHoll : AppCompatActivity() {
       .addOnSuccessListener {
           resultText ->
 
-        Log.d("taekwon95_resultText",resultText)
-        var result:String = ""
-        var com : String = ""
-        if(resultText == "0"){
-          com = "홀"
-        }else{
-          com = "짝"
-        }
+          Log.d("taekwon95_resultText",resultText)
+          var result:String = ""
+          var com : String = ""
+          if(resultText == "0"){
+            com = "홀"
+          }else{
+            com = "짝"
+          }
 
-        if(com == mine){
-          result = "이김"
-        }else{
-          result = "짐"
-        }
+          if(com == mine){
+            result = "이김"
+          }else{
+            result = "짐"
+          }
 
-        Log.d("taekwon95_mine",mine)
-        Log.d("taekwon95_com",com)
-        Log.d("taekwon95_result",result)
+          Log.d("taekwon95_mine",mine)
+          Log.d("taekwon95_com",com)
+          Log.d("taekwon95_result",result)
 
-        etCom?.setText(com)
-        etResult?.setText(result)
+          etCom?.setText(com)
+          etResult?.setText(result)
 
 
       }

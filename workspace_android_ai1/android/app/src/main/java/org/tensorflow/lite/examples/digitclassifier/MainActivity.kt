@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
   private var drawView: DrawView? = null
   private var clearButton: Button? = null
   private var predictedTextView: TextView? = null
-  private var digitClassifier = DigitClassifierHoll(this)
+  private var digitClassifier = DigitClassifier(this)
 
   @SuppressLint("ClickableViewAccessibility")
   override fun onCreate(savedInstanceState: Bundle?) {

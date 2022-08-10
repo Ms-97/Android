@@ -125,50 +125,11 @@ class DigitClassifierHoll(private val context: Context) {
 
 
 
-  private fun classify(bitmap: Bitmap): String {
-    if (!isInitialized) {
-      throw IllegalStateException("TF Lite Interpreter is not initialized yet.")
-    }
-
-    var startTime: Long
-    var elapsedTime: Long
-
-    // Preprocessing: resize the input
-    startTime = System.nanoTime()
-    val resizedImage = Bitmap.createScaledBitmap(bitmap, inputImageWidth, inputImageHeight, true)
-
-    val byteBuffer = convertBitmapToByteBuffer(resizedImage)
-    //0
-    //1
-
-    elapsedTime = (System.nanoTime() - startTime) / 1000000
-    Log.d(TAG, "Preprocessing time = " + elapsedTime + "ms")
-
-    startTime = System.nanoTime()
-    val result = Array(1) { FloatArray(OUTPUT_CLASSES_COUNT) }
-    interpreter?.run(byteBuffer, result)
-    elapsedTime = (System.nanoTime() - startTime) / 1000000
-    Log.d(TAG, "Inference time = " + elapsedTime + "ms")
-
-    Log.d("taekwon95",result[0].toString())
-    Log.d("taekwon95",getOutputString(result[0]))
-
-    return getOutputString(result[0])
-  }
 
   fun classifyAsyncHoll(mine:String): Task<String> {
     val task = TaskCompletionSource<String>()
     executorService.execute {
       val result = classifyHoll(mine)
-      task.setResult(result)
-    }
-    return task.task
-  }
-
-  fun classifyAsync(bitmap: Bitmap): Task<String> {
-    val task = TaskCompletionSource<String>()
-    executorService.execute {
-      val result = classify(bitmap)
       task.setResult(result)
     }
     return task.task
@@ -201,29 +162,6 @@ class DigitClassifierHoll(private val context: Context) {
     return byteBuffer
   }
 
-  private fun convertBitmapToByteBuffer(bitmap: Bitmap): ByteBuffer {
-    val byteBuffer = ByteBuffer.allocateDirect(modelInputSize)
-    byteBuffer.order(ByteOrder.nativeOrder())
-
-    val pixels = IntArray(inputImageWidth * inputImageHeight)
-    bitmap.getPixels(pixels, 0, bitmap.width, 0, 0, bitmap.width, bitmap.height)
-
-    for (pixelValue in pixels) {
-      val r = (pixelValue shr 16 and 0xFF)
-      val g = (pixelValue shr 8 and 0xFF)
-      val b = (pixelValue and 0xFF)
-
-      // Convert RGB to grayscale and normalize pixel value to [0..1]
-//      val normalizedPixelValue = (r + g + b) / 3.0f / 255.0f
-      val normalizedPixelValue = 0f
-      Log.d("taekwon95",normalizedPixelValue.toString())
-      byteBuffer.putFloat(normalizedPixelValue)
-    }
-
-    Log.d("taekwon95_bb",byteBuffer.toString())
-
-    return byteBuffer
-  }
 
   private fun getOutputString(output: FloatArray): String {
     val maxIndex = output.indices.maxByOrNull { output[it] } ?: -1

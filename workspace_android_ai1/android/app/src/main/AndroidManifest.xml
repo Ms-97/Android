@@ -14,7 +14,7 @@
           android:theme="@style/AppTheme.DigitClassifier"
           tools:ignore="GoogleAppIndexingWarning">
 
-    <activity android:name=".MainActivityHoll"
+    <activity android:name=".MainActivityHoll2"
               android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
