@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:/layout_activity_main5.xml.flat",
+        "source": "org.tensorflow.lite.examples.digitclassifier.app-main-18:/layout/activity_main5.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\drawable-xxhdpi_tfl2_logo_dark.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\drawable-xxhdpi\\tfl2_logo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\drawable-xxhdpi_icn_chevron_down.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\drawable-xxhdpi\\icn_chevron_down.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\drawable-xxhdpi_tfl2_logo.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\drawable-xxhdpi\\tfl2_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\drawable-xxhdpi_icn_chevron_up.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\drawable-xxhdpi\\icn_chevron_up.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-pngs-11:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\layout_tfe_dc_activity_main.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\layout\\tfe_dc_activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    }
+]
