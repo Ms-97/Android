@@ -12,10 +12,6 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:/layout_activity_main5.xml.flat",
-        "source": "org.tensorflow.lite.examples.digitclassifier.app-main-18:/layout/activity_main5.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
@@ -26,6 +22,10 @@
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\drawable-xxhdpi_tfl2_logo_dark.png.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\drawable-xxhdpi\\tfl2_logo_dark.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:/layout_activity_strike.xml.flat",
+        "source": "org.tensorflow.lite.examples.digitclassifier.app-main-18:/layout/activity_strike.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -70,6 +70,10 @@
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\layout_activity_main5.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-main-18:\\layout\\activity_main5.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.digitclassifier.app-merged_res-16:\\drawable-mdpi_ic_launcher.png.flat",

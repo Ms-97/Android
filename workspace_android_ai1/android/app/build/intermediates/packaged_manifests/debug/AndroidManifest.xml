@@ -19,7 +19,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme.DigitClassifier" >
         <activity
-            android:name="org.tensorflow.lite.examples.digitclassifier.MainActivityGawi2"
+            android:name="org.tensorflow.lite.examples.digitclassifier.MainActivityStrike"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

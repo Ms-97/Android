@@ -1175,6 +1175,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_drawing
 layout activity_main5
+layout activity_strike
 layout color_palette_view
 layout custom_dialog
 layout notification_action

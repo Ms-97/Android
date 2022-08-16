@@ -1174,6 +1174,7 @@ int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_drawing 0x7f0b001c
 int layout activity_main5 0x7f0b002a
+int layout activity_strike 0x7f0b002b
 int layout color_palette_view 0x7f0b001d
 int layout custom_dialog 0x7f0b001e
 int layout notification_action 0x7f0b001f

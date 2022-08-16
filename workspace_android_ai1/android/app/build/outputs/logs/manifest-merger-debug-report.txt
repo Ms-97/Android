@@ -9,7 +9,7 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\user\.gr
 MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\user\.gradle\caches\transforms-3\097f78735674869f2326bdc32050187b\transformed\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\user\.gradle\caches\transforms-3\551f754ee4d04a61176545a8cbf0dc6f\transformed\jetified-core-ktx-1.5.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-tasks:17.2.1] C:\Users\user\.gradle\caches\transforms-3\81eb4f0d32012763f43b738e8340f3d3\transformed\jetified-play-services-tasks-17.2.1\AndroidManifest.xml:2:1-9:12
-MERGED from [org.tensorflow:tensorflow-lite:0.0.0-nightly-SNAPSHOT] C:\Users\user\.gradle\caches\transforms-3\f49c6ae8d4af37acae4aeba55b126fe3\transformed\jetified-tensorflow-lite-0.0.0-nightly-SNAPSHOT\AndroidManifest.xml:2:1-12:12
+MERGED from [org.tensorflow:tensorflow-lite:0.0.0-nightly-SNAPSHOT] C:\Users\user\.gradle\caches\transforms-3\ef7e0e6ed3c357640d76ecaace8a4f92\transformed\jetified-tensorflow-lite-0.0.0-nightly-SNAPSHOT\AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\user\.gradle\caches\transforms-3\9d8bc2b3badd326f9180e7c5198d3a18\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\user\.gradle\caches\transforms-3\d37ef6d9c136c1b0f316fdf4e50d0674\transformed\fragment-1.3.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.3] C:\Users\user\.gradle\caches\transforms-3\4fc13d4bdaa12a79680688fd87d6e5d0\transformed\jetified-activity-1.2.3\AndroidManifest.xml:17:1-24:12
@@ -32,7 +32,7 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\user\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\user\.gradle\caches\transforms-3\3908ea95db3e871389b81a1ca208a75f\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\user\.gradle\caches\transforms-3\17d317b53ac959fca7dd19e9338662fc\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\user\.gradle\caches\transforms-3\571e5d3e812cabb8177799ca8b8e57e6\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [org.tensorflow:tensorflow-lite-api:0.0.0-nightly-SNAPSHOT] C:\Users\user\.gradle\caches\transforms-3\2473f24046b402d705f698c9f48226bd\transformed\jetified-tensorflow-lite-api-0.0.0-nightly-SNAPSHOT\AndroidManifest.xml:2:1-12:12
+MERGED from [org.tensorflow:tensorflow-lite-api:0.0.0-nightly-SNAPSHOT] C:\Users\user\.gradle\caches\transforms-3\ff9e9fcab8e9b8ce2607bac13cb77867\transformed\jetified-tensorflow-lite-api-0.0.0-nightly-SNAPSHOT\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\user\.gradle\caches\transforms-3\389ad7c65880b2f3b05c6fa15c40f3da\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 INJECTED from D:\workspace__android\workspace_android_ai1\android\app\src\main\AndroidManifest.xml:2:1-26:12
 INJECTED from D:\workspace__android\workspace_android_ai1\android\app\src\main\AndroidManifest.xml:2:1-26:12
@@ -67,8 +67,8 @@ MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\user\.gradle\caches\transfor
 MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\user\.gradle\caches\transforms-3\551f754ee4d04a61176545a8cbf0dc6f\transformed\jetified-core-ktx-1.5.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-tasks:17.2.1] C:\Users\user\.gradle\caches\transforms-3\81eb4f0d32012763f43b738e8340f3d3\transformed\jetified-play-services-tasks-17.2.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.2.1] C:\Users\user\.gradle\caches\transforms-3\81eb4f0d32012763f43b738e8340f3d3\transformed\jetified-play-services-tasks-17.2.1\AndroidManifest.xml:5:5-44
-MERGED from [org.tensorflow:tensorflow-lite:0.0.0-nightly-SNAPSHOT] C:\Users\user\.gradle\caches\transforms-3\f49c6ae8d4af37acae4aeba55b126fe3\transformed\jetified-tensorflow-lite-0.0.0-nightly-SNAPSHOT\AndroidManifest.xml:7:5-8:41
-MERGED from [org.tensorflow:tensorflow-lite:0.0.0-nightly-SNAPSHOT] C:\Users\user\.gradle\caches\transforms-3\f49c6ae8d4af37acae4aeba55b126fe3\transformed\jetified-tensorflow-lite-0.0.0-nightly-SNAPSHOT\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite:0.0.0-nightly-SNAPSHOT] C:\Users\user\.gradle\caches\transforms-3\ef7e0e6ed3c357640d76ecaace8a4f92\transformed\jetified-tensorflow-lite-0.0.0-nightly-SNAPSHOT\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite:0.0.0-nightly-SNAPSHOT] C:\Users\user\.gradle\caches\transforms-3\ef7e0e6ed3c357640d76ecaace8a4f92\transformed\jetified-tensorflow-lite-0.0.0-nightly-SNAPSHOT\AndroidManifest.xml:7:5-8:41
 MERGED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\user\.gradle\caches\transforms-3\9d8bc2b3badd326f9180e7c5198d3a18\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\user\.gradle\caches\transforms-3\9d8bc2b3badd326f9180e7c5198d3a18\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\user\.gradle\caches\transforms-3\d37ef6d9c136c1b0f316fdf4e50d0674\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
@@ -113,8 +113,8 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\user\.gradle\caches
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\user\.gradle\caches\transforms-3\17d317b53ac959fca7dd19e9338662fc\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\user\.gradle\caches\transforms-3\571e5d3e812cabb8177799ca8b8e57e6\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\user\.gradle\caches\transforms-3\571e5d3e812cabb8177799ca8b8e57e6\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [org.tensorflow:tensorflow-lite-api:0.0.0-nightly-SNAPSHOT] C:\Users\user\.gradle\caches\transforms-3\2473f24046b402d705f698c9f48226bd\transformed\jetified-tensorflow-lite-api-0.0.0-nightly-SNAPSHOT\AndroidManifest.xml:7:5-8:41
-MERGED from [org.tensorflow:tensorflow-lite-api:0.0.0-nightly-SNAPSHOT] C:\Users\user\.gradle\caches\transforms-3\2473f24046b402d705f698c9f48226bd\transformed\jetified-tensorflow-lite-api-0.0.0-nightly-SNAPSHOT\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-api:0.0.0-nightly-SNAPSHOT] C:\Users\user\.gradle\caches\transforms-3\ff9e9fcab8e9b8ce2607bac13cb77867\transformed\jetified-tensorflow-lite-api-0.0.0-nightly-SNAPSHOT\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-api:0.0.0-nightly-SNAPSHOT] C:\Users\user\.gradle\caches\transforms-3\ff9e9fcab8e9b8ce2607bac13cb77867\transformed\jetified-tensorflow-lite-api-0.0.0-nightly-SNAPSHOT\AndroidManifest.xml:7:5-8:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\user\.gradle\caches\transforms-3\389ad7c65880b2f3b05c6fa15c40f3da\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\user\.gradle\caches\transforms-3\389ad7c65880b2f3b05c6fa15c40f3da\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 INJECTED from D:\workspace__android\workspace_android_ai1\android\app\src\main\AndroidManifest.xml:6:3-15
@@ -137,16 +137,16 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\user\.gr
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\user\.gradle\caches\transforms-3\11e7c7afb1270ffd05247abd64c1594f\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.2.1] C:\Users\user\.gradle\caches\transforms-3\81eb4f0d32012763f43b738e8340f3d3\transformed\jetified-play-services-tasks-17.2.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.2.1] C:\Users\user\.gradle\caches\transforms-3\81eb4f0d32012763f43b738e8340f3d3\transformed\jetified-play-services-tasks-17.2.1\AndroidManifest.xml:7:5-20
-MERGED from [org.tensorflow:tensorflow-lite:0.0.0-nightly-SNAPSHOT] C:\Users\user\.gradle\caches\transforms-3\f49c6ae8d4af37acae4aeba55b126fe3\transformed\jetified-tensorflow-lite-0.0.0-nightly-SNAPSHOT\AndroidManifest.xml:10:5-20
-MERGED from [org.tensorflow:tensorflow-lite:0.0.0-nightly-SNAPSHOT] C:\Users\user\.gradle\caches\transforms-3\f49c6ae8d4af37acae4aeba55b126fe3\transformed\jetified-tensorflow-lite-0.0.0-nightly-SNAPSHOT\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite:0.0.0-nightly-SNAPSHOT] C:\Users\user\.gradle\caches\transforms-3\ef7e0e6ed3c357640d76ecaace8a4f92\transformed\jetified-tensorflow-lite-0.0.0-nightly-SNAPSHOT\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite:0.0.0-nightly-SNAPSHOT] C:\Users\user\.gradle\caches\transforms-3\ef7e0e6ed3c357640d76ecaace8a4f92\transformed\jetified-tensorflow-lite-0.0.0-nightly-SNAPSHOT\AndroidManifest.xml:10:5-20
 MERGED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\user\.gradle\caches\transforms-3\9d8bc2b3badd326f9180e7c5198d3a18\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\user\.gradle\caches\transforms-3\9d8bc2b3badd326f9180e7c5198d3a18\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.5.0] C:\Users\user\.gradle\caches\transforms-3\441ec9da6c8f097adf4d4ba260e8a2af\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.5.0] C:\Users\user\.gradle\caches\transforms-3\441ec9da6c8f097adf4d4ba260e8a2af\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\user\.gradle\caches\transforms-3\71719352a259098a4f79b659ec5a69ad\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\user\.gradle\caches\transforms-3\71719352a259098a4f79b659ec5a69ad\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [org.tensorflow:tensorflow-lite-api:0.0.0-nightly-SNAPSHOT] C:\Users\user\.gradle\caches\transforms-3\2473f24046b402d705f698c9f48226bd\transformed\jetified-tensorflow-lite-api-0.0.0-nightly-SNAPSHOT\AndroidManifest.xml:10:5-20
-MERGED from [org.tensorflow:tensorflow-lite-api:0.0.0-nightly-SNAPSHOT] C:\Users\user\.gradle\caches\transforms-3\2473f24046b402d705f698c9f48226bd\transformed\jetified-tensorflow-lite-api-0.0.0-nightly-SNAPSHOT\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-api:0.0.0-nightly-SNAPSHOT] C:\Users\user\.gradle\caches\transforms-3\ff9e9fcab8e9b8ce2607bac13cb77867\transformed\jetified-tensorflow-lite-api-0.0.0-nightly-SNAPSHOT\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-api:0.0.0-nightly-SNAPSHOT] C:\Users\user\.gradle\caches\transforms-3\ff9e9fcab8e9b8ce2607bac13cb77867\transformed\jetified-tensorflow-lite-api-0.0.0-nightly-SNAPSHOT\AndroidManifest.xml:10:5-20
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] C:\Users\user\.gradle\caches\transforms-3\441ec9da6c8f097adf4d4ba260e8a2af\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
@@ -163,12 +163,12 @@ MERGED from [org.tensorflow:tensorflow-lite-api:0.0.0-nightly-SNAPSHOT] C:\Users
 		ADDED from D:\workspace__android\workspace_android_ai1\android\app\src\main\AndroidManifest.xml:9:11-37
 	android:theme
 		ADDED from D:\workspace__android\workspace_android_ai1\android\app\src\main\AndroidManifest.xml:14:11-58
-activity#org.tensorflow.lite.examples.digitclassifier.MainActivityGawi2
+activity#org.tensorflow.lite.examples.digitclassifier.MainActivityStrike
 ADDED from D:\workspace__android\workspace_android_ai1\android\app\src\main\AndroidManifest.xml:17:5-23:16
 	android:exported
 		ADDED from D:\workspace__android\workspace_android_ai1\android\app\src\main\AndroidManifest.xml:18:15-38
 	android:name
-		ADDED from D:\workspace__android\workspace_android_ai1\android\app\src\main\AndroidManifest.xml:17:15-48
+		ADDED from D:\workspace__android\workspace_android_ai1\android\app\src\main\AndroidManifest.xml:17:15-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from D:\workspace__android\workspace_android_ai1\android\app\src\main\AndroidManifest.xml:19:7-22:23
 action#android.intent.action.MAIN
